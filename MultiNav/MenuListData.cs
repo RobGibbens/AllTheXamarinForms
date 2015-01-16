@@ -11,25 +11,25 @@ namespace MultiNav
 		{
 			this.Add (new MenuItem () { 
 				Title = "MenuItem 1", 
-				IconSource = "contracts.png", 
+				//IconSource = "contracts.png", 
 				TargetType = typeof(WelcomePage)
 			});
 
 			this.Add (new MenuItem () { 
 				Title = "MenuItem 2", 
-				IconSource = "Lead.png", 
+				//IconSource = "Lead.png", 
 				TargetType = typeof(FunctionsPage)
 			});
 
 			this.Add (new MenuItem () { 
 				Title = "MenuItem 3", 
-				IconSource = "Accounts.png", 
+				//IconSource = "Accounts.png", 
 				TargetType = typeof(AccountsPage)
 			});
 
 			this.Add (new MenuItem () {
 				Title = "MenuItem X",
-				IconSource = "Opportunity.png",
+				//IconSource = "Opportunity.png",
 				TargetType = typeof(OpportunitiesPage)
 			});
 		}

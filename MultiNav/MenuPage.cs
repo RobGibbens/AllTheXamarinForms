@@ -11,7 +11,7 @@ namespace MultiNav
 
 		public MenuPage ()
 		{
-			Icon = "settings.png";
+			//Icon = "settings.png";
 			Title = "menu"; // The Title property must be set.
 			BackgroundColor = Color.FromHex ("333333");
 

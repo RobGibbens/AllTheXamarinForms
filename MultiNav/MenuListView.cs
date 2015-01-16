@@ -16,7 +16,7 @@ namespace MultiNav
 
 			var cell = new DataTemplate (typeof(ImageCell));
 			cell.SetBinding (TextCell.TextProperty, "Title");
-			cell.SetBinding (ImageCell.ImageSourceProperty, "IconSource");
+			//cell.SetBinding (ImageCell.ImageSourceProperty, "IconSource");
 
 			ItemTemplate = cell;
 			SelectedItem = data [0];
